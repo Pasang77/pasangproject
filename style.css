@@ -1,0 +1,103 @@
+.body{
+    padding: 0;
+    margin: 10px;
+
+}
+.navbar{
+    text-align: left;
+    background-color: cyan;
+    font-size: 20px;
+    padding: 10px;
+}
+.navbar a {
+    color: black;
+    padding-right:  7px; ;
+    text-align:none ;
+}
+.navbar a :hover{
+    color: antiquewhite;
+}
+.navbar-right{
+    text-align: right;
+    float: right;
+}
+.Home{
+    display: flex;
+    text-align: center;
+    padding-left: 15px;
+    
+}
+p{
+    font-size: 22px;
+}
+.form{
+    display: flex;
+    flex-direction:column;
+    width: 400px;
+    margin: auto;
+    gap:25px;
+
+}
+.contact{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    background-color:#0a6cce;
+    padding: 20px;
+    margin: 25px;
+}
+.header{
+    text-align: center;
+    color: blue;
+    display: flex;
+    padding: 12px;
+    gap: 10px;
+}
+.a{
+    color: red;
+    text-decoration:20px;
+}
+.layout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    color: aqua;
+}
+h1{
+    text-align: center;
+}
+.card{
+    width: 280px;
+}
+.card img{
+    width: 100%;
+    height: 180px;
+    justify-content: center;
+    
+} 
+.project-layout{
+    display: flex;
+    gap: 20px;
+    object-fit: cover;
+    border-radius: 10px;
+    justify-content: center;
+
+}
+.intro{
+    text-align: center;
+}
+.ul{
+    color: blue;
+}
+.view{
+ display: flex;
+    object-fit: cover;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+
